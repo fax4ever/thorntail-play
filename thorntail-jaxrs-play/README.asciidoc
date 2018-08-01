@@ -1,0 +1,23 @@
+# thorntail-jaxrs-play
+
+Sample REST project, using Thorntail v4.
+
+## Build demo
+----
+mvn clean install
+----
+
+## Run demo
+----
+java -jar thorntail-jaxrs-play/target/thorntail-jaxrs-play-1.0-SNAPSHOT-bin.jar
+----
+
+## Load static content
+----
+http://localhost:8080/ciaociao.html
+----
+
+## Load REST resource
+----
+http://localhost:8080/rest/ciao
+----
