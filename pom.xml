@@ -13,6 +13,7 @@
         <module>thorntail-jaxrs-play</module>
         <module>thorntail-jpa-play</module>
         <module>thorntail-datasource-jpa-play</module>
+        <module>thorntail-hibernate-ogm-play</module>
     </modules>
 
 </project>
