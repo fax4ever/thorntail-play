@@ -11,6 +11,7 @@
 
     <modules>
         <module>thorntail-jaxrs-play</module>
+        <module>thorntail-jpa-play</module>
     </modules>
 
 </project>
