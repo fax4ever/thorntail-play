@@ -9,7 +9,7 @@ mvn clean install
 
 ## Run demo
 ----
-java -jar thorntail-jaxrs-play/target/thorntail-jaxrs-play-1.0-SNAPSHOT-bin.jar
+./target/thorntail-jaxrs-play-1.0-SNAPSHOT-bin/bin/run.sh
 ----
 
 ## Load static content

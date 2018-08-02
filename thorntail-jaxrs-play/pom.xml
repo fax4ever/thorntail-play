@@ -31,6 +31,12 @@
             <groupId>io.thorntail</groupId>
             <artifactId>thorntail-jaxrs</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>io.thorntail</groupId>
+            <artifactId>thorntail-testing</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -40,16 +46,13 @@
                 <artifactId>thorntail-maven-plugin</artifactId>
                 <version>${thorntail.version}</version>
                 <configuration>
-                    <!-- global configuration -->
+                    <format>dir</format>
                 </configuration>
                 <executions>
                     <execution>
                         <goals>
                             <goal>package</goal>
                         </goals>
-                        <configuration>
-                            <!-- execution-specific configuration -->
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
